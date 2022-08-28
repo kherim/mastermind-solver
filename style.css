@@ -1,0 +1,37 @@
+body{
+    background-color: #121212;
+    color: #ffffff;
+    font-family:'monaco', monospace;
+}
+
+input{
+    color: #ffffff;
+    box-shadow:0 0 10px 4px rgba(0, 0, 0, 0.6 ); 
+    border-radius: 5px;
+    font-family:'monaco', monospace;
+}
+
+input[type=submit]{
+    background-color: #FF5733;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=text] {
+    border-radius: 5px;
+    border-color: #FF5733;
+    background-color: #121212;
+    padding: 7px;
+    width: 20px;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+}
+p{
+    text-align: center;
+}
