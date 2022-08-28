@@ -205,7 +205,7 @@ getValues.addEventListener("click", function(){
         inputI.value = "";
         inputO.value = "";
 
-        pAdder(`yerinde: ${i} yerinde dal: ${o}`);
+        pAdder(`${i} numbers on correct place. ${o} numbers on incorrect place`);
         pAdder("___________");
         secondaryMaker();
 
